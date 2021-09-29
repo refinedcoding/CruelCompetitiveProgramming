@@ -144,3 +144,71 @@ priority_queue<int, vector<int>, cmp> pq;
 ```
 
 ## Chapter 3.5 Set and Map
+### Set
+The elements in a set cannot be accessed with the `[]` operator,instead, we access its elements through iterators.
+```cpp
+#include<set>
+
+// Declare a set of int
+set<int> s;
+
+// Add elements to the set
+s.insert(4);
+s.insert(5);
+s.insert(6);
+
+// Find elements in the set
+auto it = s.find(4);
+
+// If element not exist, return end()
+if (s.find(7) == s.end()) {
+        cout << "7 not found!" << endl;
+}
+
+// Remove elements from the set
+s.erase(6);
+
+// Note that the elements in the set is arranged in asending order
+int smallest = *s.begin();
+```
+### Map
+Similar to a set, but with `(key, val)` mappings.
+```cpp
+#include<map>
+
+// Declare a map with string -> int.
+map<string, int> ages;
+
+// Add the mapping ("John" -> 18) to the map.
+ages["John"] = 18;
+
+// If the key set does not contain a key, return end() iterator.
+if (age.find("Jayce") == age.end()) ...;
+
+// Remove a mapping with key "John" from the map.
+age.erase("John");
+
+// Get the last mapping from the map
+auto it = --age.end();
+```
+
+## Chapter 3.6 Math
+Some math functions:
+```cpp
+#include<cmath>
+abs(x);
+sqrt(x);
+pow(x, y);
+exp(x);
+log(x);
+ceil(x);
+floor(x);
+...
+```
+
+`min` and `max` are included in algorithm library:
+```cpp
+#include<algorithm>
+min(x, y);
+max(x, y);
+```
