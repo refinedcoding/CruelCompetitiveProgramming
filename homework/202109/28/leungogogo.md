@@ -65,4 +65,82 @@ for (auto it = vec.end(); it != vec.begin(); it--) {
 }
 ```
 
-Also, certain 
+Also, certain vector operators requires input to be iterators:
+```cpp
+// Remove the second element in the vector.
+vec.erase(vec.begin() + 1);
+
+// Insert to vector, if begin()/end() is passed as parameter, then the element will be inserted to start/end.
+vec.insert(vec.end(), 1);
+```
+## Chapter 3.2 Queue
+Queue is a LIFO data structure, and here's its usage:
+```cpp
+// Need to inclue the queue library
+#include <queue>
+
+// Decalre a queue of int
+queue<int> q;
+
+// Insert in the back
+q.push(2);
+
+// Remove from the front
+q.pop()
+
+// Peek from the front
+q.front()
+
+// Check if it's empty
+q.empty()
+
+// Return its size
+q.size()
+```
+
+## Chapter 3.3 Stack
+Stack is a FIFO data structure, and here's its usage:
+```cpp
+// Need to inclue the stack library
+#include <stack>
+
+// Decalre a stack of int
+stack<int> s;
+
+// Insert in the back
+s.push(2);
+
+// Remove from the back
+s.pop()
+
+// Peek from the back
+q.top()
+
+// Check if it's empty
+q.empty()
+
+// Return its size
+q.size()
+```
+## Chapter 3.4 Priority Queue (heap)
+Heap is similar to queue, but instead of popping the queue front, it pops the element with the highest priority (by default, the largest element).
+```cpp
+#include <queue>
+priority_queue<int> pq;
+```
+### Comparison Function
+What if we want the smaller elements have higher priority or we want to define our own priority? We can implement custom comparator:
+```cpp
+bool cmp(int a, int b) {
+    return a > b;
+}
+
+/*
+        1. int is the elements the pq store.
+        2. vector<int> is the container implemented the queue.
+        3. cmp is the comparator, if (cmp(a, b) == true), then a has a higher priority than b.
+*/
+priority_queue<int, vector<int>, cmp> pq;
+```
+
+## Chapter 3.5 Set and Map
