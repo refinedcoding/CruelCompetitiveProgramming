@@ -100,3 +100,113 @@ int main ()
    return 0;
 }
 ```
+---
+title: Principles_of_Algorithmic_Problem_Solving_Chapter_3
+image: 'https://source.unsplash.com/random'
+date: 2021-09-29 23:27:52
+tags: ["psap"]
+---
+# Chapter - 3
+
+## conversion
+
+cpp use `<<` to write variable to stream and use `>>` to read value from stream. So we cam employ this feature to do the conversion.
+
+```cpp
+stringstream numToString;
+numToString << 5;
+string val;
+numToString >> val; // val is now "5"
+
+stringstream stringToNum;
+stringToNum << val;
+int num;
+stringToNum >> num; // num now is 5
+```
+
+## Use cpp to implement a doublelinkedlist
+
+```cpp
+#include <iostream>
+using namespace std;
+template <class T>
+class Node{
+    public:
+        T val;
+        Node *next;
+        Node *prev;
+        Node();
+        Node(T &t){
+            this->val = t;
+        }
+        Node(T &t, Node<T> *prev, Node<T> *next){
+            this->val = t;
+            this->prev = prev;
+            this->next = next;
+        }
+};
+template<class T>
+class DList{
+    public:
+        int size;
+        T default_value;
+        Node<T>* head;
+        Node<T>* tail;
+        DList(int s, T t){
+            this->head = new Node<T>(t);
+            this->tail = new Node<T>(t);
+            this->head->next = this->tail;
+            this->tail->prev = this->head;
+            this->size = s;
+            this->default_value = t;
+        };
+        void append_left(T t){
+            Node<T> *node = new Node<T>(t, this->head, this->head->next);
+            this->head->next->prev = node;
+            this->head->next = node;
+            this->size++;
+        };
+        void append_right(T t){
+            Node<T> *node = new Node<T>(t,this->tail->prev,this->tail);
+            this->tail->prev->next = node;
+            this->tail->prev = node;
+            this->size++;
+        }
+        void output(){
+            Node<T> *node = this->head->next;
+            while(node->val != this->default_value){
+                cout << node->val << endl;
+                node = node->next;
+            }
+        };
+};
+int main(){
+    DList<string> string_list(0,"nullptr");
+    string_list.append_left("Zhou");
+    string_list.append_right("Zoe");
+    string_list.output();
+    cout << "List size is: " << string_list.size << endl;
+    DList<int> integer_list(0,-1);
+    integer_list.append_left(2);
+    integer_list.append_left(1);
+    integer_list.append_right(99);
+    integer_list.append_right(100);
+    integer_list.output();
+    cout << "List size is: " << integer_list.size << endl;
+    return 0;
+}
+```
+
+```sh
+Zhou
+Zoe
+List size is: 2
+1
+2
+99
+100
+List size is: 4
+```
+
+## Chapter notes
+In this chapter, only the parts from the standard library we deemed most important to problem solving were extracted. The standard library is much larger than this, of course. While you will almost always get by using only what we discussed additional knowledge of the library can make you a faster, more effective coder
