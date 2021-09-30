@@ -32,7 +32,7 @@ int main ()
    return 0;
 }
 ```
-
+----------------------
 ```cpp
 #include <iostream>
 #include <cstring>
@@ -76,6 +76,26 @@ int main( )
    cout << "第二本书作者 : " << Book2.author <<endl;
    cout << "第二本书类目 : " << Book2.subject <<endl;
    cout << "第二本书 ID : " << Book2.book_id <<endl;
+ 
+   return 0;
+}
+```
+----------------------------------------
+```cpp
+#include <iostream>
+ 
+using namespace std;
+ 
+int main ()
+{
+   int  var1;
+   char var2[10];
+ 
+   cout << "var1 变量的地址： ";
+   cout << &var1 << endl;
+ 
+   cout << "var2 变量的地址： ";
+   cout << &var2 << endl;
  
    return 0;
 }
