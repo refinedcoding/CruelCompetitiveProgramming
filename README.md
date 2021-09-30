@@ -20,15 +20,42 @@
 - https://usaco.guide/general/resources-cp?lang=cpp
 
 ## Homework
-- 09-25 Principles of Algorithmic Problem Solving, Section 2.4 - 2.8
+- 0925 Principles of Algorithmic Problem Solving, Section 2.4 - 2.8
 
-- 09-26 Principles of Algorithmic Problem Solving, Section 2.9-2.11
+- 0926 Principles of Algorithmic Problem Solving, Section 2.9-2.11
 
-- 09-27 Principles of Algorithmic Problem Solving, Section 2.12-3.1
+- 0927 Principles of Algorithmic Problem Solving, Section 2.12-3.1
 
-- 09-28 Principles of Algorithmic Problem Solving, Section 3.2-3.6
+- 0928 Principles of Algorithmic Problem Solving, Section 3.2-3.6
 
-- 09-29 Principles of Algorithmic Problem Solving, Section 3.7-3.11
+- 0929 Principles of Algorithmic Problem Solving, Section 3.7-3.11
+
+- 0930 Principles of Algorithmic Problem Solving, P69 - P74
+
+- 1001 Principles of Algorithmic Problem Solving, P75 - P86
+
+- 1002 Principles of Algorithmic Problem Solving, Section 5.1-5.2
+
+- 1003 Principles of Algorithmic Problem Solving, Section 5.3-6.1
+
+- 1004 Principles of Algorithmic Problem Solving, Section 6.2-6.4
+
+- 1005 Principles of Algorithmic Problem Solving, Section 6.5-6.6
+
+- 1006 Principles of Algorithmic Problem Solving, Section 7.1-7.2
+
+- 1007 Principles of Algorithmic Problem Solving, Section 7.3-7.4
+
+- 1008 Competitive Programmer's Handbook, Chapter 1
+
+- 1009 Competitive Programmer's Handbook, Chapter 2
+
+- 1010 Competitive Programmer's Handbook, P25 - P29
+
+- 1011 Competitive Programmer's Handbook, P30 - P34
+
+
+
 
 
 
