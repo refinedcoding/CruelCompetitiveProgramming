@@ -54,6 +54,74 @@
 
 - 1011 Competitive Programmer's Handbook, P30 - P34
 
+- 1012 Competitive Programmer's Handbook, P36 - P40
+
+- 1013 Competitive Programmer's Handbook, P41 - P45
+
+- 1014 Competitive Programmer's Handbook, P46 - P50
+
+- 1015 Competitive Programmer's Handbook, P51 - P55
+
+- 1016 Competitive Programmer's Handbook, P56 - P60
+
+- 1017 Competitive Programmer's Handbook, P61 - P65
+
+- 1018 Competitive Programmer's Handbook, P66 - P70
+
+- 1019 Competitive Programmer's Handbook, P71 - P75
+
+- 1020 Competitive Programmer's Handbook, P76 - P80
+
+- 1021 Competitive Programmer's Handbook, P81 - P85
+
+- 1022 Competitive Programmer's Handbook, P86 - P90
+
+- 1023 Competitive Programmer's Handbook, P91 - P95
+
+- 1024 Competitive Programmer's Handbook, P96 - P100
+
+- 1025 Competitive Programmer's Handbook, P101 - P105
+
+- 1026 Competitive Programmer's Handbook, P106 - P110
+
+- 1027 Competitive Programmer's Handbook, P111 - P115
+
+- 1028 Competitive Programmer's Handbook, P116 - P120
+
+- 1029 Competitive Programmer's Handbook, P121 - P125
+
+- 1030 Competitive Programmer's Handbook, P126 - P130
+
+- 1031 Competitive Programmer's Handbook, P131 - P135
+
+- 1101 Competitive Programmer's Handbook, P136 - P140
+
+- 1102 Competitive Programmer's Handbook, P141 - P145
+
+- 1103 Competitive Programmer's Handbook, P146 - P150
+
+- 1104 Competitive Programmer's Handbook, P151 - P155
+
+- 1105 Competitive Programmer's Handbook, P156 - P160
+
+- 1106 Competitive Programmer's Handbook, P161 - P165
+
+- 1107 Competitive Programmer's Handbook, P166 - P170
+
+- 1108 Competitive Programmer's Handbook, P171 - P175
+
+- 1109 Competitive Programmer's Handbook, P176 - P180
+
+- 1110 Competitive Programmer's Handbook, P181 - P185
+
+- 1111 Competitive Programmer's Handbook, P186 - P190
+
+- 1112 Competitive Programmer's Handbook, P191 - P195
+
+- 1113 Competitive Programmer's Handbook, P196 - P200
+
+
+
 
 
 
